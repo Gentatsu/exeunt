@@ -1,0 +1,14 @@
+tools/release.sh
+  h_1daf89ea8a8a75 31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "284efef26fac9cbd265c8cbf5f94ef4437c8950f",
+  "prompts": {},
+  "humans": {
+    "h_1daf89ea8a8a75": {
+      "author": "Naval Bhandari <navs92@hotmail.com>"
+    }
+  }
+}
