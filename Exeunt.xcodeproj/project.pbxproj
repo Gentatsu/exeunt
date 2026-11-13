@@ -1,0 +1,177 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+		B00000000000000000000000 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00000010000000000000000;
+			buildPhases = (B00000020000000000000000, B00000030000000000000000, B00000040000000000000000, );
+			buildRules = ();
+			dependencies = ();
+			fileSystemSynchronizedGroups = (B00000050000000000000000, );
+			name = Exeunt;
+			productName = Exeunt;
+			productReference = B00000060000000000000000;
+			productType = "com.apple.product-type.application";
+		};
+		B00000050000000000000000 = {isa = PBXFileSystemSynchronizedRootGroup; path = Exeunt; sourceTree = "<group>"; };
+		B00000060000000000000000 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exeunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000020000000000000000 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B00000030000000000000000 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B00000040000000000000000 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B00000070000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exeunt;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Onibaku Ltd";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.onibaku.exeunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B00000080000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exeunt;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Onibaku Ltd";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.onibaku.exeunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B00000010000000000000000 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (B00000070000000000000000, B00000080000000000000000, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B000000A0000000000000000 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B000000B0000000000000000;
+			buildPhases = (B000000C0000000000000000, B000000D0000000000000000, B000000E0000000000000000, );
+			buildRules = ();
+			dependencies = (B00000090000000000000000, );
+			fileSystemSynchronizedGroups = (B000000F0000000000000000, );
+			name = ExeuntTests;
+			productName = ExeuntTests;
+			productReference = B00000100000000000000000;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B000000F0000000000000000 = {isa = PBXFileSystemSynchronizedRootGroup; path = ExeuntTests; sourceTree = "<group>"; };
+		B00000100000000000000000 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExeuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B000000C0000000000000000 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B000000D0000000000000000 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B000000E0000000000000000 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B00000110000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.onibaku.exeunt.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exeunt.app/Contents/MacOS/Exeunt";
+			};
+			name = Debug;
+		};
+		B00000120000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.onibaku.exeunt.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exeunt.app/Contents/MacOS/Exeunt";
+			};
+			name = Release;
+		};
+		B000000B0000000000000000 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (B00000110000000000000000, B00000120000000000000000, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00000090000000000000000 = {isa = PBXTargetDependency; target = B00000000000000000000000; targetProxy = B00000130000000000000000; };
+		B00000130000000000000000 = {isa = PBXContainerItemProxy; containerPortal = B00000140000000000000000; proxyType = 1; remoteGlobalIDString = B00000000000000000000000; remoteInfo = Exeunt; };
+		B00000150000000000000000 = {isa = PBXGroup; children = (B00000060000000000000000, B00000100000000000000000, ); name = Products; sourceTree = "<group>"; };
+		B00000160000000000000000 = {isa = PBXGroup; children = (B00000050000000000000000, B000000F0000000000000000, B00000150000000000000000, ); sourceTree = "<group>"; };
+		B00000140000000000000000 = {
+			isa = PBXProject;
+			attributes = { LastUpgradeCheck = 2640; };
+			buildConfigurationList = B00000170000000000000000;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, );
+			mainGroup = B00000160000000000000000;
+			productRefGroup = B00000150000000000000000;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (B00000000000000000000000, B000000A0000000000000000, );
+		};
+		B00000180000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 39NS894P5C;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B00000190000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 39NS894P5C;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B00000170000000000000000 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (B00000180000000000000000, B00000190000000000000000, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+	};
+	rootObject = B00000140000000000000000;
+}
