@@ -28,6 +28,7 @@ stage=$out/dmg
 ditto $app $stage/Exeunt.app
 ln -sfn /Applications $stage/Applications
 hdiutil create -volname Exeunt -srcfolder $stage -ov -format UDZO $dmg
+codesign --sign "Developer ID Application" --timestamp $dmg
 xcrun notarytool submit $dmg $notary
 xcrun stapler staple $dmg
 spctl -a -t open --context context:primary-signature -v $dmg
