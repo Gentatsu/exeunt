@@ -1,0 +1,39 @@
+Exeunt.xcodeproj/project.pbxproj
+  s_5f73364a77a656::t_2c3c972f47ecd2 126,144,162
+Exeunt/ExeuntApp.swift
+  s_1c5cb454c51cb4::t_e5056377a17fa9 50
+Exeunt/Localizable.xcstrings
+  s_1c5cb454c51cb4::t_ef21a14ac3bba6 1-2855
+Exeunt/SettingsView.swift
+  s_1c5cb454c51cb4::t_dd8f740ed01120 44,148
+Exeunt/SetupView.swift
+  s_1c5cb454c51cb4::t_6f024a39861a5e 55-57,83-84
+README.md
+  s_1c5cb454c51cb4::t_7786f7f48b9e7f 18,43-72
+tools/gen_xcodeproj.py
+  s_1c5cb454c51cb4::t_5e6ee89b25f84a 23,135
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "bfbec256089a4bfa5b22ece86802a6a194be1f68",
+  "prompts": {},
+  "sessions": {
+    "s_1c5cb454c51cb4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ed1e265-ece1-4d1c-a1d3-a83ce9bf1b79",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Naval Bhandari <navs92@hotmail.com>"
+    },
+    "s_5f73364a77a656": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1783a343-8e6f-555f-93a3-f27fde0057f8",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Naval Bhandari <navs92@hotmail.com>"
+    }
+  }
+}
