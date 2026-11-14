@@ -52,9 +52,9 @@ struct SetupView: View {
 private struct Step: View {
     let number: Int
     let done: Bool
-    let title: String
-    let detail: String
-    let action: (String, () -> Void)
+    let title: LocalizedStringKey
+    let detail: LocalizedStringKey
+    let action: (LocalizedStringKey, () -> Void)
 
     var body: some View {
         HStack(alignment: .top, spacing: 14) {
@@ -80,6 +80,7 @@ private struct Step: View {
         }
         .padding(.vertical, 14)
         .accessibilityElement(children: .contain)
-        .accessibilityLabel("Step \(number), \(title), \(done ? "done" : "to do")")
+        .accessibilityLabel("Step \(number)")
+        .accessibilityValue(done ? "Done" : "To do")
     }
 }

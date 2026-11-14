@@ -15,7 +15,7 @@ there are none, it quits the app.
 
 ## Install
 
-1. Grab `Exeunt-1.0.0.dmg` from [Releases](https://github.com/Gentatsu/exeunt/releases/latest). It's signed and
+1. Grab `Exeunt-1.1.0.dmg` from [Releases](https://github.com/Gentatsu/exeunt/releases/latest). It's signed and
    notarised, so it opens without any right-click dance.
 2. Drag Exeunt into Applications and open it.
 3. It opens a little setup checklist: give it Accessibility access, leave it opening at login, then close a TextEdit
@@ -39,6 +39,36 @@ Click the masks in the menu bar:
   Applications. Finder never gets quit, whatever you pick.
 - **Open at login**, on by default.
 - **Hide the menu bar icon.** Open Exeunt again from Launchpad or Spotlight to get back in.
+
+## Languages
+
+Exeunt's windows and menu come in English (British), Deutsch, Français, Español, Italiano, Português (Brasil), 日本語, 한국어, 简体中文, Nederlands, Polski and Türkçe, and follow your Mac's language.
+
+<details><summary>In your language</summary>
+
+**Deutsch:** Eine winzige Menüleisten-App für den Mac, die ein Programm beendet, sobald du sein letztes Fenster schließt. Wie unter Windows.
+
+**Français:** Une minuscule app de barre des menus pour Mac qui quitte une app dès que vous fermez sa dernière fenêtre. Comme sous Windows.
+
+**Español:** Una pequeña app de la barra de menús para Mac que cierra una app cuando cierras su última ventana. Como en Windows.
+
+**Italiano:** Una piccola app per la barra dei menu del Mac che esce da un’app quando ne chiudi l’ultima finestra. Come su Windows.
+
+**Português (Brasil):** Um pequeno app de barra de menus para Mac que fecha um app quando você fecha a última janela dele. Como no Windows.
+
+**日本語:** 最後のウインドウを閉じるとAppも終了する、Mac用の小さなメニューバーAppです。Windowsと同じ感覚で使えます。
+
+**한국어:** 마지막 윈도우를 닫으면 앱도 함께 종료해 주는 작은 Mac 메뉴 막대 앱입니다. Windows처럼 동작합니다.
+
+**简体中文:** 一款小巧的 Mac 菜单栏 App：关闭某个 App 的最后一个窗口时，它会一并退出，就像在 Windows 上一样。
+
+**Nederlands:** Een piepkleine Mac-menubalkapp die een app stopt zodra je het laatste venster sluit. Zoals op Windows.
+
+**Polski:** Malutka aplikacja na pasek menu Maca, która zamyka aplikację, gdy zamkniesz jej ostatnie okno. Jak w Windowsie.
+
+**Türkçe:** Bir uygulamanın son penceresini kapattığınızda uygulamadan çıkan, küçücük bir Mac menü çubuğu uygulaması. Tıpkı Windows’taki gibi.
+
+</details>
 
 ## Build it yourself
 

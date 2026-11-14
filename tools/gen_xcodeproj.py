@@ -20,7 +20,7 @@ COMMON = {
     "DEVELOPMENT_TEAM": "39NS894P5C",
     "ENABLE_USER_SCRIPT_SANDBOXING": "YES",
     "MACOSX_DEPLOYMENT_TARGET": "13.0",
-    "MARKETING_VERSION": "1.0.0",
+    "MARKETING_VERSION": "1.1.0",
     "SDKROOT": "macosx",
     "SWIFT_VERSION": "5.0",
 }
@@ -132,7 +132,7 @@ objects += (
     'sourceTree = "<group>"; };\n'
     f"\t\t{i('Project')} = {{\n\t\t\tisa = PBXProject;\n\t\t\tattributes = {{ LastUpgradeCheck = 2640; }};\n"
     f'\t\t\tbuildConfigurationList = {i("ProjectList")};\n\t\t\tcompatibilityVersion = "Xcode 16.0";\n'
-    "\t\t\tdevelopmentRegion = en;\n\t\t\thasScannedForEncodings = 0;\n\t\t\tknownRegions = (en, Base, );\n"
+    "\t\t\tdevelopmentRegion = en;\n\t\t\thasScannedForEncodings = 0;\n\t\t\tknownRegions = (en, Base, de, fr, es, it, \"pt-BR\", ja, ko, \"zh-Hans\", nl, pl, tr, );\n"
     f'\t\t\tmainGroup = {i("Root")};\n\t\t\tproductRefGroup = {i("Products")};\n\t\t\tprojectDirPath = "";\n'
     f'\t\t\tprojectRoot = "";\n\t\t\ttargets = ({"".join(i(t[0]) + ", " for t in TARGETS)});\n\t\t}};\n'
 )

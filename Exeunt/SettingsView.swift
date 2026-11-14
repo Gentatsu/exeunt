@@ -41,7 +41,7 @@ struct SettingsView: View {
 
 /// The header: folds of velvet with the name in gilt.
 struct Curtain: View {
-    var subtitle = "When the last window closes, the app leaves the stage."
+    var subtitle: LocalizedStringKey = "When the last window closes, the app leaves the stage."
 
     var body: some View {
         ZStack {
@@ -145,7 +145,7 @@ struct AppListSection: View {
         panel.allowedContentTypes = [.application]
         panel.allowsMultipleSelection = true
         panel.directoryURL = URL(fileURLWithPath: "/Applications")
-        panel.prompt = "Add"
+        panel.prompt = String(localized: "Add")
         guard panel.runModal() == .OK else { return }
         for url in panel.urls { if let id = Bundle(url: url)?.bundleIdentifier { settings.add(id) } }
     }

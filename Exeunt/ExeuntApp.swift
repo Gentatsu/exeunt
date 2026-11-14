@@ -47,7 +47,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
 /// The app's two windows, made on first use and reused after.
 final class Windows {
-    static let setup = Windows(title: "Exeunt Setup") { AnyView(SetupView()) }
+    static let setup = Windows(title: String(localized: "Exeunt Setup")) { AnyView(SetupView()) }
     static let settings = Windows(title: "Exeunt") { AnyView(SettingsView()) }
 
     private let title: String
